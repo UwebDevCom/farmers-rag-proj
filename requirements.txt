@@ -9,6 +9,7 @@ python-dotenv==1.0.0
 # Document processing libraries
 pypdf==3.17.0
 docx2txt==0.8
+python-docx==0.8.11  # Make sure this is exactly as shown
 PyPDF2==3.0.1
 
 # Text processing and embeddings
