@@ -1,0 +1,11 @@
+---
+description: Python coding standards and best practices
+globs: **/*.py
+alwaysApply: false
+---
+
+- Follow PEP 8 style guide for consistent code formatting
+- Use type hints to improve code readability and catch errors early
+- Implement proper exception handling with specific exception types
+- Use context managers (`with` statements) for resource management
+- Write clear, descriptive docstrings for functions and classes

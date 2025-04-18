@@ -1,0 +1,12 @@
+---
+description: Best practices for building Streamlit applications
+globs: **/*.py
+alwaysApply: false
+---
+
+[app.py](mdc:app.py)
+- Use `st.cache` to optimize performance by caching expensive computations
+- Organize your app into clear sections using `st.header`, `st.subheader`, and `st.markdown`
+- Implement proper error handling and user feedback with `st.error` and `st.success`
+- Use `st.session_state` for maintaining state between interactions
+- Keep your app modular by splitting logic into functions and importing them

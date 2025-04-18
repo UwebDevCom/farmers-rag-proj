@@ -1,0 +1,11 @@
+---
+description: Guidelines for working with Pinecone vector database
+globs: **/*.py
+alwaysApply: false
+---
+[vec_store.py](mdc:vec_store.py)
+- Use appropriate vector dimensions based on your data and use case
+- Implement proper indexing strategies for efficient querying
+- Regularly update and maintain your vectors to ensure data relevance
+- Use Pinecone's built-in metadata filtering to optimize query performance
+- Implement proper error handling for database operations
