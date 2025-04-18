@@ -1,21 +1,19 @@
 # Core libraries
 streamlit==1.30.0
-pinecone-client==2.2.4
+pinecone-client>=2.2.1  # Make sure to use a newer version
 langchain==0.1.0
-openai==1.13.3
+openai==1.13.3  # Keep your original version if it works
 python-dotenv==1.0.0
 
-# Document processing
+# Document processing libraries
 pypdf==3.17.0
 docx2txt==0.8
 
 # Text processing and embeddings
 sentence-transformers==2.2.2
 transformers==4.37.2
-torch
+torch  # Flexible version
 nltk==3.8.1
 
-# Add any other dependencies your app uses
+# Other dependencies
 pandas==2.1.4
-
-# Remove pydantic-ai-slim completely
